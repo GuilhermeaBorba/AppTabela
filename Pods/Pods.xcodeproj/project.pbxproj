@@ -1,0 +1,1271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0421D9BCCB9225A6E789AF62B8F35CE8 /* Pods-AppTabelaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0414BC906E8F2175FE687917466677A3 /* Pods-AppTabelaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05399C35827DEE4DD35A9DD254645202 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97829319AEC967DFF43212B79FA90A22 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12DB405007D94CC22BD2BEBE19DC7CAE /* Pods-AppTabela-AppTabelaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F29C7A664F860C7DC1A8616747C90 /* Pods-AppTabela-AppTabelaUITests-dummy.m */; };
+		171A95287361D334D1F21CEC3749C8DA /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D55F142C66D466BAF985E63DF4463 /* CGContext+CGImage.swift */; };
+		18FFDEF73DDF537A977D35AFEE4A51A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */; };
+		1C2AE1E769BC1E5BA7062E4FB71DC6F8 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC414A42C5A691DD03A5EB3BE4BA62C /* PresentationManager.swift */; };
+		24B3E393946D47A88703047590F066E7 /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACDBC7C7C46C392DE37DAC2F754DF14 /* PopupDialog+Keyboard.swift */; };
+		29EFCE0029DAD34685F685DDC1584B19 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1BED76C18DD501D683110B63476BC /* PopupDialog.swift */; };
+		2D266D80F39BF2F502DEE289C9176830 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6670EE3BE420FCCC8A4F24B42817A7E /* UIImage+Blur.swift */; };
+		341368BF38E97ACFAF3F0866C1BB77D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */; };
+		3D6EAF59005BAC00470A96943B40DE6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */; };
+		40325640A5E0EAEBF4D95BEBC09ED112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2BFE71ADE37C5C6F70A845F3DA5480 /* UIKit.framework */; };
+		4B085F1FDFD4ED3ED0F46B992AF7E0BB /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CBE34C3F427A4B0C1C3B7757CE233 /* PopupDialogDefaultViewController.swift */; };
+		4B836B9A4A091D41CEBA1846CC055DBE /* Pods-AppTabela-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 561F406D6ADECED6D17F8D725D9D557D /* Pods-AppTabela-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A24F1977DDF7783E072A05DD63976F5 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0A76EB3C48B548FC69632266B2171 /* UIViewController+Visibility.swift */; };
+		65A8FEA804F5B01C5A627024F472299E /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943ACDD17BD8EAD93F81B682FD22F23 /* UIView+Animations.swift */; };
+		6835A73143DA54E752A2B1B9C7DFCF6B /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE3DE470676C73A1C3C82F0D92CC7F /* PresentationController.swift */; };
+		68E88B8287E24B795B0E77118095FF91 /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B72114D305801EDB540F9FAF01F1C50 /* DynamicBlurView.swift */; };
+		69EE57D58995959254548F00FC9D4835 /* Pods-AppTabelaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5287BABA0F2A3AF272FB5A3EF4734 /* Pods-AppTabelaTests-dummy.m */; };
+		712A08906486C430CA5E724471995301 /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81742F9AB6098D61F1EA168B458E548F /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C197D219FA3C1EF21038175317B4CA0 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637A591E307709CEC2774DB6535C833 /* UIImageView+Calculations.swift */; };
+		8230F8BAFAA7FA0FD826FB6E1FAD7704 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76324846DB52985FEB4031CCF5561C7 /* PopupDialog-dummy.m */; };
+		86910B420D68F278708D70119B7344E5 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A18FCD1591206F7755EF3DB50BD3 /* PopupDialogDefaultButtons.swift */; };
+		8E248706FA56563E86E5B5D7C110BAEA /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56871845432F4F317EE1CA8C6B166BF /* CGImage+Accelerate.swift */; };
+		8ED98FC7E7FF6796ED2C55C02477DDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */; };
+		93B057EEC635EE508640F9944FD5DA2E /* Pods-AppTabela-AppTabelaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9B5148DA4629B0A839F4D0C119FF68 /* Pods-AppTabela-AppTabelaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945E061E5E988FF8F60D06E86B44DC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */; };
+		A5F1958ECF3EFC3FB453ACEE40840BCF /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DE4AA671EF23CA1B562FD45A1F709 /* InteractiveTransition.swift */; };
+		A888ACD36DC8E310636E797F7791F6B6 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04978B8CE1FFC5FA995FC589E32D299A /* PopupDialogOverlayView.swift */; };
+		B0394BD6CD94948822EC5FAFB056355C /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4067C264EADF5F5E867B1E4FBFBF7E0E /* BlurLayer.swift */; };
+		B1950D5C96D92C81E7F436920077982A /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB3AF1EE37CDFA5E91D6C3300112E0 /* PopupDialogContainerView.swift */; };
+		B72907D06188DACC26025D74CCD61B37 /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4C881813238E7AC54CC8A6E8CB644 /* CaptureQuality.swift */; };
+		B830185E1C7ED31627FA1B8775888EBF /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D11EF6C784F20C2E3EB2AED066BB6 /* TransitionAnimations.swift */; };
+		B8E546A8E7D00B7C43323546BD0D4045 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C40E3C3D658CFBD521B0F9A09EB07 /* DynamicBlurView-dummy.m */; };
+		C10273C7D9B2212C16FB9D8EDF8C4939 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283F6101B72642459B07E22D479CA2F /* PopupDialogDefaultView.swift */; };
+		C1DA33C8BE799EBCACD236C091810789 /* Pods-AppTabela-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E34C11DDEED0B65D536E8CBEEEE1D /* Pods-AppTabela-dummy.m */; };
+		CAFD972D1334F38DBAE0E038DE241AE0 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB27E90B2FBE22DADE57F16B1FA1A2 /* TrackingMode.swift */; };
+		CC5E4C4A64018C14050E7AC9A56C8896 /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = D01501BF7B71AA2FDA974E99E37ECDB9 /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA7A97CC9E1A7548858FCA7B4D7C1629 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D15B3980414424DEABAD7B13CFC47 /* PopupDialogButton.swift */; };
+		EC9211C49E43C38212BB791C35605245 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C50979C71CC179C0AA946303DA9C29 /* TransitionAnimator.swift */; };
+		EFB6C0A49787457FEE34CAA9C221FB17 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BDA8230569BF877C4DA19761A70ED7 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4F377DEBC3350F93FE69B1C21A1E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+		5B86C48B5FA86D067DED39078EC5EABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196C15482620F807FA414E26113ADCBF;
+			remoteInfo = "Pods-AppTabela";
+		};
+		6AA1C2A53197C4013D716AF7D0F75F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
+			remoteInfo = PopupDialog;
+		};
+		B4A780BED50A8D13CBAFE6BF9B8DFFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
+			remoteInfo = PopupDialog;
+		};
+		C58705EC58EBDE02A913DA25B18A41B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+		CE14E3300ED8CEF996F4BCD9DEA537A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036B548701F2F7A47DC4143C00AF3937 /* DynamicBlurView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.release.xcconfig; sourceTree = "<group>"; };
+		0414BC906E8F2175FE687917466677A3 /* Pods-AppTabelaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppTabelaTests-umbrella.h"; sourceTree = "<group>"; };
+		045D55F142C66D466BAF985E63DF4463 /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		04978B8CE1FFC5FA995FC589E32D299A /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		04EF233B9E941B3F8C205C2E0D3B4722 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		0943ACDD17BD8EAD93F81B682FD22F23 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		0A4DED6F0F710B45A2A8D895D9159958 /* Pods-AppTabela-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppTabela-Info.plist"; sourceTree = "<group>"; };
+		0BDD030C93936A9FDC1F25B05E90DD03 /* Pods-AppTabela-AppTabelaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppTabela-AppTabelaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10CD04B2B261258BC829B979BF566F36 /* Pods-AppTabela-AppTabelaUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppTabela-AppTabelaUITests"; path = Pods_AppTabela_AppTabelaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CEAF51974106F91797D6792C416329 /* Pods-AppTabela */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppTabela"; path = Pods_AppTabela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BDA8230569BF877C4DA19761A70ED7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		178FF403470F86085945C67ECF9A4BCD /* DynamicBlurView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.debug.xcconfig; sourceTree = "<group>"; };
+		1803A18FCD1591206F7755EF3DB50BD3 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		204938207EEECC235C181B7720002A03 /* Pods-AppTabela-AppTabelaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppTabela-AppTabelaUITests-Info.plist"; sourceTree = "<group>"; };
+		2CF329461C79A77631621C8C5615522B /* Pods-AppTabela-AppTabelaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppTabela-AppTabelaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E2BFE71ADE37C5C6F70A845F3DA5480 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33FCFE3C088ABF65B6A052139D409D5C /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D67C4842D7E818E9EA3066FF2093038 /* Pods-AppTabelaTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppTabelaTests"; path = Pods_AppTabelaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4067C264EADF5F5E867B1E4FBFBF7E0E /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+		44D0A76EB3C48B548FC69632266B2171 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		470D15B3980414424DEABAD7B13CFC47 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		47BB3AF1EE37CDFA5E91D6C3300112E0 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		47F1BED76C18DD501D683110B63476BC /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		497C11279B4AE34B6C37692BAA2F817C /* Pods-AppTabelaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppTabelaTests.modulemap"; sourceTree = "<group>"; };
+		4A5C40E3C3D658CFBD521B0F9A09EB07 /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		4C8D11EF6C784F20C2E3EB2AED066BB6 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		4CC4C881813238E7AC54CC8A6E8CB644 /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
+		50FE319BF1ABA711CE606F6AB8FC4056 /* Pods-AppTabela-AppTabelaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppTabela-AppTabelaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		561F406D6ADECED6D17F8D725D9D557D /* Pods-AppTabela-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppTabela-umbrella.h"; sourceTree = "<group>"; };
+		575F4A42360716A0B4528B91ED776E7F /* Pods-AppTabela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppTabela.release.xcconfig"; sourceTree = "<group>"; };
+		5A4DA2B259D90E932ACE3C040B716B77 /* Pods-AppTabela.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppTabela.modulemap"; sourceTree = "<group>"; };
+		60E0CA9A51DD213B84C6D1416D840392 /* Pods-AppTabela-AppTabelaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppTabela-AppTabelaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A7A9837984BE02594C9FC44B93A84A7 /* Pods-AppTabela-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppTabela-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C04A9EE988F7B22254D668674C07ADB /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		6D9DF6AC3516D04A7C820A7790EF7F74 /* Pods-AppTabela-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppTabela-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AAB27E90B2FBE22DADE57F16B1FA1A2 /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		7B72114D305801EDB540F9FAF01F1C50 /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		81742F9AB6098D61F1EA168B458E548F /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
+		817525B48F8B8ECEDF02756FFC7A040D /* Pods-AppTabelaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppTabelaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8283F6101B72642459B07E22D479CA2F /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		828DDA74F05B840A4A837DBB4255BF66 /* Pods-AppTabela-AppTabelaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppTabela-AppTabelaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85C50979C71CC179C0AA946303DA9C29 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicBlurView; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F96696929BAB294ED774F852465B7E /* Pods-AppTabela-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppTabela-frameworks.sh"; sourceTree = "<group>"; };
+		97829319AEC967DFF43212B79FA90A22 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		9BE5287BABA0F2A3AF272FB5A3EF4734 /* Pods-AppTabelaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppTabelaTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1464E2007F664DC9686CBB075A7417F /* Pods-AppTabelaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppTabelaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA6E34C11DDEED0B65D536E8CBEEEE1D /* Pods-AppTabela-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppTabela-dummy.m"; sourceTree = "<group>"; };
+		AEC414A42C5A691DD03A5EB3BE4BA62C /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		B11CBE34C3F427A4B0C1C3B7757CE233 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		B4DFF1A55029F2B8A65EA8CF4272F7B5 /* PopupDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.release.xcconfig; sourceTree = "<group>"; };
+		B6670EE3BE420FCCC8A4F24B42817A7E /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		B9831841EF535342832EE06FF26B3972 /* PopupDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.debug.xcconfig; sourceTree = "<group>"; };
+		BACDBC7C7C46C392DE37DAC2F754DF14 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		C324E43D3FD635B31A46E0494A885E96 /* Pods-AppTabelaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppTabelaTests-Info.plist"; sourceTree = "<group>"; };
+		C9859A05CF314D11FEF88C750CEF4EBB /* Pods-AppTabela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppTabela.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C91238EAD6670AC3AF2D59E578AEFF /* Pods-AppTabela-AppTabelaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppTabela-AppTabelaUITests.modulemap"; sourceTree = "<group>"; };
+		CA9B5148DA4629B0A839F4D0C119FF68 /* Pods-AppTabela-AppTabelaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppTabela-AppTabelaUITests-umbrella.h"; sourceTree = "<group>"; };
+		CDEE3DE470676C73A1C3C82F0D92CC7F /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		D01501BF7B71AA2FDA974E99E37ECDB9 /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		D56871845432F4F317EE1CA8C6B166BF /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		D637A591E307709CEC2774DB6535C833 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		D76324846DB52985FEB4031CCF5561C7 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		E2C7345CD9EE45844665EC0A2BBA71C1 /* PopupDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupDialog-Info.plist"; sourceTree = "<group>"; };
+		E2E1BBE7399FAD23A7A1ADB0FCF5295E /* Pods-AppTabelaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppTabelaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E629A5583C8E8B0DA43C45FC1EEEA4EB /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		E95F29C7A664F860C7DC1A8616747C90 /* Pods-AppTabela-AppTabelaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppTabela-AppTabelaUITests-dummy.m"; sourceTree = "<group>"; };
+		ED453D0A400F7452F6DDD675812743AC /* Pods-AppTabelaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppTabelaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED64F9C5818922F816185E132EE1F81B /* DynamicBlurView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicBlurView-Info.plist"; sourceTree = "<group>"; };
+		F89DE4AA671EF23CA1B562FD45A1F709 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05145379E4B52300937001790D0F14ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6EAF59005BAC00470A96943B40DE6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B9E896711AE5537D281C13B6B0006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED98FC7E7FF6796ED2C55C02477DDF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE3C5EFF74402BA5397C8D27800D20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB6C0A49787457FEE34CAA9C221FB17 /* Accelerate.framework in Frameworks */,
+				341368BF38E97ACFAF3F0866C1BB77D1 /* Foundation.framework in Frameworks */,
+				40325640A5E0EAEBF4D95BEBC09ED112 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6746E433AA3A991360B6EDBAA99DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945E061E5E988FF8F60D06E86B44DC4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E139E01DC4F4CEB0A6A42207E393DDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FFDEF73DDF537A977D35AFEE4A51A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C49DCB435CE913A16B5CCE625F27BE6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B55EC934B6A9F13AD3F07FAADED11C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E629A5583C8E8B0DA43C45FC1EEEA4EB /* PopupDialog.modulemap */,
+				D76324846DB52985FEB4031CCF5561C7 /* PopupDialog-dummy.m */,
+				E2C7345CD9EE45844665EC0A2BBA71C1 /* PopupDialog-Info.plist */,
+				6C04A9EE988F7B22254D668674C07ADB /* PopupDialog-prefix.pch */,
+				97829319AEC967DFF43212B79FA90A22 /* PopupDialog-umbrella.h */,
+				B9831841EF535342832EE06FF26B3972 /* PopupDialog.debug.xcconfig */,
+				B4DFF1A55029F2B8A65EA8CF4272F7B5 /* PopupDialog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		258942CCCE5AA6D9853BFB12C864CAA0 /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				F89DE4AA671EF23CA1B562FD45A1F709 /* InteractiveTransition.swift */,
+				47F1BED76C18DD501D683110B63476BC /* PopupDialog.swift */,
+				BACDBC7C7C46C392DE37DAC2F754DF14 /* PopupDialog+Keyboard.swift */,
+				470D15B3980414424DEABAD7B13CFC47 /* PopupDialogButton.swift */,
+				47BB3AF1EE37CDFA5E91D6C3300112E0 /* PopupDialogContainerView.swift */,
+				1803A18FCD1591206F7755EF3DB50BD3 /* PopupDialogDefaultButtons.swift */,
+				8283F6101B72642459B07E22D479CA2F /* PopupDialogDefaultView.swift */,
+				B11CBE34C3F427A4B0C1C3B7757CE233 /* PopupDialogDefaultViewController.swift */,
+				04978B8CE1FFC5FA995FC589E32D299A /* PopupDialogOverlayView.swift */,
+				CDEE3DE470676C73A1C3C82F0D92CC7F /* PresentationController.swift */,
+				AEC414A42C5A691DD03A5EB3BE4BA62C /* PresentationManager.swift */,
+				4C8D11EF6C784F20C2E3EB2AED066BB6 /* TransitionAnimations.swift */,
+				85C50979C71CC179C0AA946303DA9C29 /* TransitionAnimator.swift */,
+				D637A591E307709CEC2774DB6535C833 /* UIImageView+Calculations.swift */,
+				0943ACDD17BD8EAD93F81B682FD22F23 /* UIView+Animations.swift */,
+				44D0A76EB3C48B548FC69632266B2171 /* UIViewController+Visibility.swift */,
+				0B55EC934B6A9F13AD3F07FAADED11C0 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		436C5D5A5634F310904203F576060E7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62E768071DC11A36543662CE5DE59E83 /* Pods-AppTabela */,
+				E554B61EDD1638EDBE7BAB54592E1953 /* Pods-AppTabela-AppTabelaUITests */,
+				FF25E57F4BC3BA538D82E60481F46281 /* Pods-AppTabelaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E4DF143FCF3E4A890E031F07EE72511 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33FCFE3C088ABF65B6A052139D409D5C /* DynamicBlurView.modulemap */,
+				4A5C40E3C3D658CFBD521B0F9A09EB07 /* DynamicBlurView-dummy.m */,
+				ED64F9C5818922F816185E132EE1F81B /* DynamicBlurView-Info.plist */,
+				04EF233B9E941B3F8C205C2E0D3B4722 /* DynamicBlurView-prefix.pch */,
+				81742F9AB6098D61F1EA168B458E548F /* DynamicBlurView-umbrella.h */,
+				178FF403470F86085945C67ECF9A4BCD /* DynamicBlurView.debug.xcconfig */,
+				036B548701F2F7A47DC4143C00AF3937 /* DynamicBlurView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
+			sourceTree = "<group>";
+		};
+		5C49DCB435CE913A16B5CCE625F27BE6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				14BDA8230569BF877C4DA19761A70ED7 /* Accelerate.framework */,
+				3FA0B378BCC9D218E8774A30345D6D0D /* Foundation.framework */,
+				2E2BFE71ADE37C5C6F70A845F3DA5480 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62E768071DC11A36543662CE5DE59E83 /* Pods-AppTabela */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DA2B259D90E932ACE3C040B716B77 /* Pods-AppTabela.modulemap */,
+				6A7A9837984BE02594C9FC44B93A84A7 /* Pods-AppTabela-acknowledgements.markdown */,
+				6D9DF6AC3516D04A7C820A7790EF7F74 /* Pods-AppTabela-acknowledgements.plist */,
+				AA6E34C11DDEED0B65D536E8CBEEEE1D /* Pods-AppTabela-dummy.m */,
+				92F96696929BAB294ED774F852465B7E /* Pods-AppTabela-frameworks.sh */,
+				0A4DED6F0F710B45A2A8D895D9159958 /* Pods-AppTabela-Info.plist */,
+				561F406D6ADECED6D17F8D725D9D557D /* Pods-AppTabela-umbrella.h */,
+				C9859A05CF314D11FEF88C750CEF4EBB /* Pods-AppTabela.debug.xcconfig */,
+				575F4A42360716A0B4528B91ED776E7F /* Pods-AppTabela.release.xcconfig */,
+			);
+			name = "Pods-AppTabela";
+			path = "Target Support Files/Pods-AppTabela";
+			sourceTree = "<group>";
+		};
+		86D3D3322BF0092C0EE6716CD9B7324F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A66619660E629D886E53DCD8646D70E7 /* DynamicBlurView */,
+				258942CCCE5AA6D9853BFB12C864CAA0 /* PopupDialog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A66619660E629D886E53DCD8646D70E7 /* DynamicBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				4067C264EADF5F5E867B1E4FBFBF7E0E /* BlurLayer.swift */,
+				4CC4C881813238E7AC54CC8A6E8CB644 /* CaptureQuality.swift */,
+				045D55F142C66D466BAF985E63DF4463 /* CGContext+CGImage.swift */,
+				D56871845432F4F317EE1CA8C6B166BF /* CGImage+Accelerate.swift */,
+				D01501BF7B71AA2FDA974E99E37ECDB9 /* DynamicBlurView.h */,
+				7B72114D305801EDB540F9FAF01F1C50 /* DynamicBlurView.swift */,
+				7AAB27E90B2FBE22DADE57F16B1FA1A2 /* TrackingMode.swift */,
+				B6670EE3BE420FCCC8A4F24B42817A7E /* UIImage+Blur.swift */,
+				4E4DF143FCF3E4A890E031F07EE72511 /* Support Files */,
+			);
+			name = DynamicBlurView;
+			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		BDBFB7A8DABED16C26BCC31C83F089FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView */,
+				13CEAF51974106F91797D6792C416329 /* Pods-AppTabela */,
+				10CD04B2B261258BC829B979BF566F36 /* Pods-AppTabela-AppTabelaUITests */,
+				3D67C4842D7E818E9EA3066FF2093038 /* Pods-AppTabelaTests */,
+				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				86D3D3322BF0092C0EE6716CD9B7324F /* Pods */,
+				BDBFB7A8DABED16C26BCC31C83F089FC /* Products */,
+				436C5D5A5634F310904203F576060E7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E554B61EDD1638EDBE7BAB54592E1953 /* Pods-AppTabela-AppTabelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C91238EAD6670AC3AF2D59E578AEFF /* Pods-AppTabela-AppTabelaUITests.modulemap */,
+				60E0CA9A51DD213B84C6D1416D840392 /* Pods-AppTabela-AppTabelaUITests-acknowledgements.markdown */,
+				828DDA74F05B840A4A837DBB4255BF66 /* Pods-AppTabela-AppTabelaUITests-acknowledgements.plist */,
+				E95F29C7A664F860C7DC1A8616747C90 /* Pods-AppTabela-AppTabelaUITests-dummy.m */,
+				50FE319BF1ABA711CE606F6AB8FC4056 /* Pods-AppTabela-AppTabelaUITests-frameworks.sh */,
+				204938207EEECC235C181B7720002A03 /* Pods-AppTabela-AppTabelaUITests-Info.plist */,
+				CA9B5148DA4629B0A839F4D0C119FF68 /* Pods-AppTabela-AppTabelaUITests-umbrella.h */,
+				0BDD030C93936A9FDC1F25B05E90DD03 /* Pods-AppTabela-AppTabelaUITests.debug.xcconfig */,
+				2CF329461C79A77631621C8C5615522B /* Pods-AppTabela-AppTabelaUITests.release.xcconfig */,
+			);
+			name = "Pods-AppTabela-AppTabelaUITests";
+			path = "Target Support Files/Pods-AppTabela-AppTabelaUITests";
+			sourceTree = "<group>";
+		};
+		FF25E57F4BC3BA538D82E60481F46281 /* Pods-AppTabelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				497C11279B4AE34B6C37692BAA2F817C /* Pods-AppTabelaTests.modulemap */,
+				817525B48F8B8ECEDF02756FFC7A040D /* Pods-AppTabelaTests-acknowledgements.markdown */,
+				A1464E2007F664DC9686CBB075A7417F /* Pods-AppTabelaTests-acknowledgements.plist */,
+				9BE5287BABA0F2A3AF272FB5A3EF4734 /* Pods-AppTabelaTests-dummy.m */,
+				C324E43D3FD635B31A46E0494A885E96 /* Pods-AppTabelaTests-Info.plist */,
+				0414BC906E8F2175FE687917466677A3 /* Pods-AppTabelaTests-umbrella.h */,
+				ED453D0A400F7452F6DDD675812743AC /* Pods-AppTabelaTests.debug.xcconfig */,
+				E2E1BBE7399FAD23A7A1ADB0FCF5295E /* Pods-AppTabelaTests.release.xcconfig */,
+			);
+			name = "Pods-AppTabelaTests";
+			path = "Target Support Files/Pods-AppTabelaTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BC2BCFEE7A527BDAEF52B1777D22709 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421D9BCCB9225A6E789AF62B8F35CE8 /* Pods-AppTabelaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567FF1B1737DFC4A3D5479AF64E8CE95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05399C35827DEE4DD35A9DD254645202 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CA505D540DE77F08E0BCD22C6C298 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5E4C4A64018C14050E7AC9A56C8896 /* DynamicBlurView.h in Headers */,
+				712A08906486C430CA5E724471995301 /* DynamicBlurView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9511A27AA968D0EFE6B4772D91305BC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B836B9A4A091D41CEBA1846CC055DBE /* Pods-AppTabela-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF852393F35E7A7BFC629E290B6F2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B057EEC635EE508640F9944FD5DA2E /* Pods-AppTabela-AppTabelaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		196C15482620F807FA414E26113ADCBF /* Pods-AppTabela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C573FB8356E206367524B3D648DA6A /* Build configuration list for PBXNativeTarget "Pods-AppTabela" */;
+			buildPhases = (
+				9511A27AA968D0EFE6B4772D91305BC5 /* Headers */,
+				F63AC68F30CE80769ABD00B85E0090F9 /* Sources */,
+				9AA6746E433AA3A991360B6EDBAA99DD /* Frameworks */,
+				0A887F63AE10CD4D39F7CC22A14913AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DB04DDF7E48BA925858CA51114F3E6 /* PBXTargetDependency */,
+				31C2C7B97D170013714532DE6CA3C3E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppTabela";
+			productName = Pods_AppTabela;
+			productReference = 13CEAF51974106F91797D6792C416329 /* Pods-AppTabela */;
+			productType = "com.apple.product-type.framework";
+		};
+		44A646D0D0C634ECB3509E88710A2293 /* Pods-AppTabelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB59270765D759FB6CC35415ECF4AEC3 /* Build configuration list for PBXNativeTarget "Pods-AppTabelaTests" */;
+			buildPhases = (
+				3BC2BCFEE7A527BDAEF52B1777D22709 /* Headers */,
+				6445B9C56EB38EDA0AA31216956FED8E /* Sources */,
+				05145379E4B52300937001790D0F14ED /* Frameworks */,
+				38EB5460F113117F40B19B5AF3184329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F630F3F3A8CC145D08E504CC91E55D53 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppTabelaTests";
+			productName = Pods_AppTabelaTests;
+			productReference = 3D67C4842D7E818E9EA3066FF2093038 /* Pods-AppTabelaTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD89191CBB71A80BEEB00F63C291EC /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				567FF1B1737DFC4A3D5479AF64E8CE95 /* Headers */,
+				6553DE6C4DE4146E1DBC591BB1845973 /* Sources */,
+				514B9E896711AE5537D281C13B6B0006 /* Frameworks */,
+				8EF36C13F9DCA47A3C211E62052FD3E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449A6477CD61A4F6BE5638EE92FAF6BF /* PBXTargetDependency */,
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0760232251EA461456909CD65D1D22AF /* Build configuration list for PBXNativeTarget "DynamicBlurView" */;
+			buildPhases = (
+				6B5CA505D540DE77F08E0BCD22C6C298 /* Headers */,
+				99E49451CD45EE51C32A150E172D36C7 /* Sources */,
+				5BE3C5EFF74402BA5397C8D27800D20B /* Frameworks */,
+				2CE73D7DDF0FF3CCDCC44918DFB3178D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicBlurView;
+			productName = DynamicBlurView;
+			productReference = 86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D8490F6194BBDC279EAC3D86478A696 /* Pods-AppTabela-AppTabelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1C857C73A84E3F0B8679109F322A88 /* Build configuration list for PBXNativeTarget "Pods-AppTabela-AppTabelaUITests" */;
+			buildPhases = (
+				C9AF852393F35E7A7BFC629E290B6F2C /* Headers */,
+				9D271A43C6F8912CE478D06E088366DD /* Sources */,
+				E139E01DC4F4CEB0A6A42207E393DDA3 /* Frameworks */,
+				F89D2EB38C0506D7B39D7386B622E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB1EBA7C380D7FCA1DDDE9AD8131790 /* PBXTargetDependency */,
+				02266DA53E2DCAE907CF8542361E592D /* PBXTargetDependency */,
+			);
+			name = "Pods-AppTabela-AppTabelaUITests";
+			productName = Pods_AppTabela_AppTabelaUITests;
+			productReference = 10CD04B2B261258BC829B979BF566F36 /* Pods-AppTabela-AppTabelaUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDBFB7A8DABED16C26BCC31C83F089FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */,
+				196C15482620F807FA414E26113ADCBF /* Pods-AppTabela */,
+				8D8490F6194BBDC279EAC3D86478A696 /* Pods-AppTabela-AppTabelaUITests */,
+				44A646D0D0C634ECB3509E88710A2293 /* Pods-AppTabelaTests */,
+				6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A887F63AE10CD4D39F7CC22A14913AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE73D7DDF0FF3CCDCC44918DFB3178D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EB5460F113117F40B19B5AF3184329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF36C13F9DCA47A3C211E62052FD3E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89D2EB38C0506D7B39D7386B622E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6445B9C56EB38EDA0AA31216956FED8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EE57D58995959254548F00FC9D4835 /* Pods-AppTabelaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6553DE6C4DE4146E1DBC591BB1845973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F1958ECF3EFC3FB453ACEE40840BCF /* InteractiveTransition.swift in Sources */,
+				29EFCE0029DAD34685F685DDC1584B19 /* PopupDialog.swift in Sources */,
+				24B3E393946D47A88703047590F066E7 /* PopupDialog+Keyboard.swift in Sources */,
+				8230F8BAFAA7FA0FD826FB6E1FAD7704 /* PopupDialog-dummy.m in Sources */,
+				DA7A97CC9E1A7548858FCA7B4D7C1629 /* PopupDialogButton.swift in Sources */,
+				B1950D5C96D92C81E7F436920077982A /* PopupDialogContainerView.swift in Sources */,
+				86910B420D68F278708D70119B7344E5 /* PopupDialogDefaultButtons.swift in Sources */,
+				C10273C7D9B2212C16FB9D8EDF8C4939 /* PopupDialogDefaultView.swift in Sources */,
+				4B085F1FDFD4ED3ED0F46B992AF7E0BB /* PopupDialogDefaultViewController.swift in Sources */,
+				A888ACD36DC8E310636E797F7791F6B6 /* PopupDialogOverlayView.swift in Sources */,
+				6835A73143DA54E752A2B1B9C7DFCF6B /* PresentationController.swift in Sources */,
+				1C2AE1E769BC1E5BA7062E4FB71DC6F8 /* PresentationManager.swift in Sources */,
+				B830185E1C7ED31627FA1B8775888EBF /* TransitionAnimations.swift in Sources */,
+				EC9211C49E43C38212BB791C35605245 /* TransitionAnimator.swift in Sources */,
+				7C197D219FA3C1EF21038175317B4CA0 /* UIImageView+Calculations.swift in Sources */,
+				65A8FEA804F5B01C5A627024F472299E /* UIView+Animations.swift in Sources */,
+				5A24F1977DDF7783E072A05DD63976F5 /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E49451CD45EE51C32A150E172D36C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0394BD6CD94948822EC5FAFB056355C /* BlurLayer.swift in Sources */,
+				B72907D06188DACC26025D74CCD61B37 /* CaptureQuality.swift in Sources */,
+				171A95287361D334D1F21CEC3749C8DA /* CGContext+CGImage.swift in Sources */,
+				8E248706FA56563E86E5B5D7C110BAEA /* CGImage+Accelerate.swift in Sources */,
+				68E88B8287E24B795B0E77118095FF91 /* DynamicBlurView.swift in Sources */,
+				B8E546A8E7D00B7C43323546BD0D4045 /* DynamicBlurView-dummy.m in Sources */,
+				CAFD972D1334F38DBAE0E038DE241AE0 /* TrackingMode.swift in Sources */,
+				2D266D80F39BF2F502DEE289C9176830 /* UIImage+Blur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D271A43C6F8912CE478D06E088366DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DB405007D94CC22BD2BEBE19DC7CAE /* Pods-AppTabela-AppTabelaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63AC68F30CE80769ABD00B85E0090F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA33C8BE799EBCACD236C091810789 /* Pods-AppTabela-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02266DA53E2DCAE907CF8542361E592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = B4A780BED50A8D13CBAFE6BF9B8DFFA4 /* PBXContainerItemProxy */;
+		};
+		07DB04DDF7E48BA925858CA51114F3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = CE14E3300ED8CEF996F4BCD9DEA537A7 /* PBXContainerItemProxy */;
+		};
+		31C2C7B97D170013714532DE6CA3C3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = 6AA1C2A53197C4013D716AF7D0F75F0F /* PBXContainerItemProxy */;
+		};
+		449A6477CD61A4F6BE5638EE92FAF6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = C58705EC58EBDE02A913DA25B18A41B4 /* PBXContainerItemProxy */;
+		};
+		BCB1EBA7C380D7FCA1DDDE9AD8131790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = 3E4F377DEBC3350F93FE69B1C21A1E44 /* PBXContainerItemProxy */;
+		};
+		F630F3F3A8CC145D08E504CC91E55D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppTabela";
+			target = 196C15482620F807FA414E26113ADCBF /* Pods-AppTabela */;
+			targetProxy = 5B86C48B5FA86D067DED39078EC5EABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05873A91B81F67139022BE45CFFA961B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9831841EF535342832EE06FF26B3972 /* PopupDialog.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29CAE26D73B97DA740DF9D85839661AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DFF1A55029F2B8A65EA8CF4272F7B5 /* PopupDialog.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6D6BFE5CF96426103A1FB9C86BD54100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF329461C79A77631621C8C5615522B /* Pods-AppTabela-AppTabelaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppTabela-AppTabelaUITests/Pods-AppTabela-AppTabelaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppTabela-AppTabelaUITests/Pods-AppTabela-AppTabelaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F74120EFED2AE9E226D00A01839325A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDD030C93936A9FDC1F25B05E90DD03 /* Pods-AppTabela-AppTabelaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppTabela-AppTabelaUITests/Pods-AppTabela-AppTabelaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppTabela-AppTabelaUITests/Pods-AppTabela-AppTabelaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76E3E44CBC46E236332A5C8F9029F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED453D0A400F7452F6DDD675812743AC /* Pods-AppTabelaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppTabelaTests/Pods-AppTabelaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppTabelaTests/Pods-AppTabelaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81B814D20B918B033E0BE7B1307FFD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178FF403470F86085945C67ECF9A4BCD /* DynamicBlurView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C3A35499A9B0A8B3CCFD4EB39E8FA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575F4A42360716A0B4528B91ED776E7F /* Pods-AppTabela.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppTabela/Pods-AppTabela-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppTabela/Pods-AppTabela.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACBFCE6B3526EAA1BE8536384709F942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E1BBE7399FAD23A7A1ADB0FCF5295E /* Pods-AppTabelaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppTabelaTests/Pods-AppTabelaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppTabelaTests/Pods-AppTabelaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D420537478F205518C8E661B5159B93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9859A05CF314D11FEF88C750CEF4EBB /* Pods-AppTabela.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppTabela/Pods-AppTabela-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppTabela/Pods-AppTabela.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D549175A1416250E41FDBBFA55A6D429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036B548701F2F7A47DC4143C00AF3937 /* DynamicBlurView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0760232251EA461456909CD65D1D22AF /* Build configuration list for PBXNativeTarget "DynamicBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B814D20B918B033E0BE7B1307FFD92 /* Debug */,
+				D549175A1416250E41FDBBFA55A6D429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD89191CBB71A80BEEB00F63C291EC /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05873A91B81F67139022BE45CFFA961B /* Debug */,
+				29CAE26D73B97DA740DF9D85839661AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C573FB8356E206367524B3D648DA6A /* Build configuration list for PBXNativeTarget "Pods-AppTabela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D420537478F205518C8E661B5159B93E /* Debug */,
+				8C3A35499A9B0A8B3CCFD4EB39E8FA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB59270765D759FB6CC35415ECF4AEC3 /* Build configuration list for PBXNativeTarget "Pods-AppTabelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E3E44CBC46E236332A5C8F9029F9B5 /* Debug */,
+				ACBFCE6B3526EAA1BE8536384709F942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1C857C73A84E3F0B8679109F322A88 /* Build configuration list for PBXNativeTarget "Pods-AppTabela-AppTabelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F74120EFED2AE9E226D00A01839325A /* Debug */,
+				6D6BFE5CF96426103A1FB9C86BD54100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

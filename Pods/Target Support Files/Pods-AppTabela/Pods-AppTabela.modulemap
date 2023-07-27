@@ -1,0 +1,6 @@
+framework module Pods_AppTabela {
+  umbrella header "Pods-AppTabela-umbrella.h"
+
+  export *
+  module * { export * }
+}
